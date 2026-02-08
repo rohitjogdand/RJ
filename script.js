@@ -12,3 +12,10 @@ const moveBtn = () =>{
 }
 
 no.addEventListener('mouseover',moveBtn)
+
+
+//for gana
+window.addEventListener('DOMContentLoaded',function(){
+    const audio = document.getElementById('bg-music');
+audio.play()
+})
