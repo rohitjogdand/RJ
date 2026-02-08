@@ -53,6 +53,17 @@ body {
     color: #706c6c;
 }
 
+#slast{
+    padding: 20px 35px;
+    border-radius: 10px;
+    background-color: white;
+    cursor: pointer;
+    text-align: center;
+    font-size: large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #706c6c;
+}
+
 #yesI:hover{
     background-color: rgba(229, 128, 128, 0.8);
 }
@@ -141,6 +152,16 @@ body {
     font-family:Georgia, 'Times New Roman', Times, serif;
     color: #706c6c;
 }
+.bt{
+    padding: 20px 35px;
+    border-radius: 10px;
+    background-color: white;
+    cursor: pointer;
+    text-align: center;
+    font-size: large;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: #706c6c;
+}
 
 #yes{
     background-color: rgba(229, 128, 128, 0.8);
@@ -161,4 +182,25 @@ body {
     font-size: 30px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: #706c6c;
+}
+
+
+.fade-text {
+    position: absolute;
+    color: #ff4d6d;
+    font-weight: bold;
+    pointer-events: none;
+    animation: fadeAndRise 2s ease-out forwards;
+    z-index: 1000;
+}
+
+@keyframes fadeAndRise {
+    0% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+    100% {
+        opacity: 0;
+        transform: translateY(-50px); /* Moves the text up as it fades */
+    }
 }
