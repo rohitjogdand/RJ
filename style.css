@@ -63,6 +63,33 @@ body {
     align-items: center;
 }
 
+.pop{
+    width: auto;
+    max-width: 720px;
+    padding: 24px 36px;
+    background-color: #fff;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.pop p{
+    text-align: center;
+    font-size: larger;
+    font-family: monospace;
+    font-display: fallback;
+}
+
+.pop button{
+    padding: 20px 35px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+
 .inner{
     border-radius: 20px;
     width: 50%;
